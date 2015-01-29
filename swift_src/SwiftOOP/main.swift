@@ -18,8 +18,8 @@ import Foundation
 //testAny();
 //testAnyObject();
 //testInnerClass();
-testExtension();
-
+//testExtension();
+testProtocal();
 
 
 

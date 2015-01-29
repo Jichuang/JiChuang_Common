@@ -17,6 +17,7 @@
 		DA5F77B71A777DC600D5B475 /* AnyInSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F77B61A777DC600D5B475 /* AnyInSwift.swift */; };
 		DA5F77B91A777F0400D5B475 /* InnerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F77B81A777F0400D5B475 /* InnerClass.swift */; };
 		DA5F77BB1A777FF500D5B475 /* ExtensionSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F77BA1A777FF500D5B475 /* ExtensionSwift.swift */; };
+		DA5F77BF1A778C2600D5B475 /* Protocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA5F77BE1A778C2600D5B475 /* Protocal.swift */; };
 		DAB4FAD51A777089002956F3 /* Chain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4FAD41A777089002956F3 /* Chain.swift */; };
 		DAB4FAD71A777472002956F3 /* ClassCast.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB4FAD61A777472002956F3 /* ClassCast.swift */; };
 /* End PBXBuildFile section */
@@ -45,6 +46,7 @@
 		DA5F77B61A777DC600D5B475 /* AnyInSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyInSwift.swift; sourceTree = "<group>"; };
 		DA5F77B81A777F0400D5B475 /* InnerClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InnerClass.swift; sourceTree = "<group>"; };
 		DA5F77BA1A777FF500D5B475 /* ExtensionSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionSwift.swift; sourceTree = "<group>"; };
+		DA5F77BE1A778C2600D5B475 /* Protocal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocal.swift; sourceTree = "<group>"; };
 		DAB4FAD41A777089002956F3 /* Chain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Chain.swift; sourceTree = "<group>"; };
 		DAB4FAD61A777472002956F3 /* ClassCast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClassCast.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,18 +81,19 @@
 		DA0406A91A66575300EC9EDC /* SwiftOOP */ = {
 			isa = PBXGroup;
 			children = (
+				DA5F77B61A777DC600D5B475 /* AnyInSwift.swift */,
 				DAB4FAD41A777089002956F3 /* Chain.swift */,
 				DAB4FAD61A777472002956F3 /* ClassCast.swift */,
 				DA5F77B01A777B6E00D5B475 /* ClassConstructor.swift */,
 				DA5F77AA1A7779BE00D5B475 /* ClassExtend.swift */,
+				DA5F77BA1A777FF500D5B475 /* ExtensionSwift.swift */,
 				DA5F77AE1A777A3400D5B475 /* FieldOfSetGet.swift */,
+				DA5F77B81A777F0400D5B475 /* InnerClass.swift */,
 				DA0406AA1A66575300EC9EDC /* main.swift */,
+				DA5F77BE1A778C2600D5B475 /* Protocal.swift */,
 				DA5F77B41A777C7100D5B475 /* Reference.swift */,
 				DA5F77B21A777BF600D5B475 /* StructMutiating.swift */,
 				DA5F77AC1A7779F300D5B475 /* SwiftObject.swift */,
-				DA5F77B61A777DC600D5B475 /* AnyInSwift.swift */,
-				DA5F77B81A777F0400D5B475 /* InnerClass.swift */,
-				DA5F77BA1A777FF500D5B475 /* ExtensionSwift.swift */,
 			);
 			path = SwiftOOP;
 			sourceTree = "<group>";
@@ -151,6 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DA5F77BF1A778C2600D5B475 /* Protocal.swift in Sources */,
 				DA0406AB1A66575300EC9EDC /* main.swift in Sources */,
 				DAB4FAD51A777089002956F3 /* Chain.swift in Sources */,
 				DA5F77AB1A7779BE00D5B475 /* ClassExtend.swift in Sources */,
